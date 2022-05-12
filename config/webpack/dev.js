@@ -5,7 +5,7 @@ const helpers = require('./helpers');
 
 module.exports = merge(base, {
   mode: 'development',
-  devtool: 'inline-source-map',
+  devtool: 'eval-source-map',
   output: {
     path: helpers.resolveFromRootPath('dist'),
     filename: '[name].js',
@@ -14,6 +14,8 @@ module.exports = merge(base, {
     host: 'localhost',
     port: 8080,
   },
+  stats: 'errors-only',
+
   plugins: [
     new Dotenv({
       path: 'dev.env',
