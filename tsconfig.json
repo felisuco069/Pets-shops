@@ -19,7 +19,8 @@
       "layaut": ["layaut"],
       "router": ["router"],
       "scenes": ["scenes"],
-      "pods": ["pods"]
+      "pods": ["pods"],
+      "assets": ["assets"]
     }
   }
 }

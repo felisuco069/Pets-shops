@@ -5,7 +5,7 @@ const helpers = require('./helpers');
 
 module.exports = merge(base, {
   mode: 'development',
-  devtool: 'eval-source-map',
+  devtool: 'inline-source-map',
   output: {
     path: helpers.resolveFromRootPath('dist'),
     filename: '[name].js',
