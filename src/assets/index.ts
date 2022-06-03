@@ -18,7 +18,7 @@ export { default as id17 } from "./gato-bosque-de-Noruega.jpg";
 export { default as id18 } from "./gato-devon-rex.jpg";
 export { default as id19 } from "./gato-exotico.jpg";
 export { default as id20 } from "./gato-habana.jpg";
-export { default as id21 } from "./gato-himalayo.jpg";
+export { default as id21 } from "./Gato-himalayo.jpg";
 export { default as id22 } from "./gato-manx.jpg";
 export { default as id23 } from "./gato-somalí.jpg";
 export { default as id24 } from "./oriental pelo corto.jpg";

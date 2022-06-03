@@ -135,7 +135,7 @@ app.use("/catsList", async (req, res) => {
     },
     {
       "id": 21,
-      "picUrl": "/images/gato-himalayo.jpg",
+      "picUrl": "/images/Gato-himalayo.jpg",
       "title": "Gato Himalayo",
       "selected": false
     },
